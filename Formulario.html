@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Formulario de contacto</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+   <link rel="stylesheet" href="CSS-FORMULARIO.CSS" />
+   <!---->
+</head>
+
+<body>
+   <div class="container">
+      <div class="row justify-content-center">
+         <div class="col-12 col-md-8 col-lg-7">
+            <form><!--Necesario para el required-->
+               <div class="form-container">
+                  <h1>Datos personales</h1>
+                  <div class="mb-3"></div>
+                  <div class="row">
+                     <div class="col">
+                        <label for="nombreCompleto" class="form-label">Nombre completo</label>
+                        <input type="text" class="form-control" id="nombreCompleto" placeholder="Digite su nombre"
+                           aria-label="Digite su nombre" required />
+                     </div>
+                     <div class="col-6">
+                        <label for="apellidosCompletos" class="form-label">Apellidos completos</label>
+                        <input type="text" class="form-control" id="apellidosCompletos"
+                           placeholder="Digite sus apellidos" aria-label="Digite sus apellidos" required />
+                     </div>
+                  </div>
+                  <div class="mb-3"></div>
+                  <div class="row">
+                     <div class="col-6">
+                        <label for="telefonoContacto" class="form-label">Teléfono de contacto</label>
+                        <input type="number" class="form-control" id="telefonoContacto" placeholder="Digite su teléfono"
+                           aria-label="Digite su teléfono" required />
+                     </div>
+                     <div class="col-6">
+                        <label for="correoElectronico" class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" id="correoElectronico"
+                           placeholder="Digite su correo electrónico" aria-label="Digite su correo electrónico"
+                           required />
+                     </div>
+                     <div class="col-6">
+                        <label for="Ciudad" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="correoElectronico" placeholder="Ciudad"
+                           aria-label="Ciudad" required />
+                     </div>
+                  </div>
+                  <div class="mt-4 text-center">
+                     <input class="btn btn-primary" type="submit" value="Enviar">
+
+                     <!--  </button> -->
+                  </div>     
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+<div class="mt-4 text-center">
+   <a href="index.html"><button class="btn btn-primary">
+         Ir a la pagina principal
+      </button></a>
+</div>
+</body>
+
+</html>
